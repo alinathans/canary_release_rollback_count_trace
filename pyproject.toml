@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "alinathans-featplat_jd419"
+name = "alinathans-canary_release_rollback_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出特征平台工程师·灰度发布与版本回滚上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://alinathans.github.io"
-Repository = "https://github.com/alinathans/featplat_jd419"
-Issues = "https://github.com/alinathans/featplat_jd419/issues"
+Repository = "https://github.com/alinathans/canary_release_rollback_count_trace"
+Issues = "https://github.com/alinathans/canary_release_rollback_count_trace/issues"
 
 [project.scripts]
-featplat_jd419 = "featplat_jd419:main"
+canary_release_rollback_count_trace = "canary_release_rollback_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["featplat_jd419"]
+py-modules = ["canary_release_rollback_count_trace"]
